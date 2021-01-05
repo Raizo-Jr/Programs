@@ -14,7 +14,9 @@ int main()
         m = m / 10;
     }
     if (n == sum)
+    {
         cout << n << " is palindrome.";
+    }
     else
     {
         cout << n << " is not palindrome.";
