@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 using namespace std;
 
@@ -28,7 +28,7 @@ int main()
     }
     else
     {
-        cout << str << " is not palindrome.";
+        cout << str << " is palindrome.";
     }
 
     return 0;
